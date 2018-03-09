@@ -12,7 +12,7 @@
     'menu menu right right right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #FF0000;
   padding: 10px;
 }
 .grid-container > div {
