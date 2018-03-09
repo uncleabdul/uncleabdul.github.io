@@ -5,7 +5,7 @@
 }
 
 .item3 { 
-  grid-area: main; 
+  grid-area: Navigation; 
 }
 
 .item4 { 
@@ -20,6 +20,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header header'
+    'Navigation Navigation Navigation Navigation Navigation Navigation
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
