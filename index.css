@@ -9,7 +9,6 @@
   grid-template-areas:
     'header header header header header header'
     'Navigation Navigation Navigation Navigation'
-    'menu menu right right right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
