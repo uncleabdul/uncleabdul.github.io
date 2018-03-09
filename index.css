@@ -1,7 +1,6 @@
-.item1 { grid-area: header;
-      background-color:#FF0000}
+.item1 { grid-area: header; }
 .item2 { grid-area: menu; }
-.item3 { grid-area: Navigation; }
+.item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
@@ -9,7 +8,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu menu right right right right'
+    'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
