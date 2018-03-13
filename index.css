@@ -1,10 +1,7 @@
-.item1 {grid-area:header; background-color: #2196F3;}
-.item2 {grid-area:navigation; background-color: #ccff99}
-.item3 {grid-area:space; background-color: #99ff99}
-.item4 {grid-area:content; background-color: #99e6ff}
-.item5 {grid-area:footer; background-color: #ffff99}
 
-.grid-container {
+
+.grid-container 
+{
   display: grid;
   grid-template-areas:
     'header header header header header'
@@ -22,3 +19,9 @@
   padding: 20px 0;
   font-size: 30px;
 }
+
+.item1 { grid-area: header; background-color: #2196F3;}
+.item2 { grid-area: navigation; background-color: #ccff99}
+.item3 { grid-area: space; background-color: #99ff99}
+.item4 { grid-area: content; background-color: #99e6ff}
+.item5 { grid-area: footer; background-color: #ffff99}
