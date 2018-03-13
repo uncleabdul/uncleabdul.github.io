@@ -3,15 +3,15 @@
 }
 
 .item2 {
-  grid-area: menu;
-}
-
-.item3 {
   grid-area: navigation;
 }
 
+.item3 {
+  grid-area: space;
+}
+
 .item4 {
-  grid-area: right;
+  grid-area: content;
 }
 
 .item5 {
@@ -23,8 +23,8 @@
   grid-template-areas:
     'header header header header header header'
     'navigation navigation navigation navigation navigation navigation'
-    'menu right right right right right right'
-    'menu footer footer footer footer footer';
+    'space content content content content content content'
+    'space footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
