@@ -7,10 +7,10 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'navigation navigation navigation navigation navigation navigation'
-    'space space content content content content content'
-    'space space footer footer footer footer';
+    'header header header header header'
+    'navigation navigation navigation navigation navigation'
+    'space space content content content'
+    'space space footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
