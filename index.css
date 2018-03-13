@@ -1,23 +1,8 @@
-.item1 {
-  grid-area: header;
-  background-color: #2196F3;
-}
-
-.item2 {
-  grid-area: navigation;
-}
-
-.item3 {
-  grid-area: space;
-}
-
-.item4 {
-  grid-area: content;
-}
-
-.item5 {
-  grid-area: footer;
-}
+.item1 {grid-area:header; background-color: #2196F3;}
+.item2 {grid-area:navigation;}
+.item3 {grid-area:space;}
+.item4 {grid-area:content;}
+.item5 {grid-area:footer;}
 
 .grid-container {
   display: grid;
