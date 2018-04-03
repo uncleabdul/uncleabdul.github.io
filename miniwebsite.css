@@ -2,7 +2,7 @@
 {
   display: grid;
   grid-template-areas:
-    ' header navigation space content'
+    'header navigation space content'
     'navigation navigation navigation navigation navigation'
     'space space content content content'
     'space space footer footer footer';
