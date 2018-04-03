@@ -2,7 +2,7 @@
 {
   display: grid;
   grid-template-areas:
-    'header navigation space content'
+    'header navigation space content random'
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -20,4 +20,4 @@
 .item3 { grid-area: space; background-color: #99ff99}
 .item4 { grid-area: content; background-color: #99e6ff}
 .item5 { grid-area: footer; background-color: #ffff99}
-.item5 { grid-area: random; background-color: #ffff99}
+.item6 { grid-area: random; background-color: #ffff99}
