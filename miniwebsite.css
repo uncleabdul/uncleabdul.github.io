@@ -1,9 +1,10 @@
+body {
+     margin:0 auto;
+   }
+
 .grid-container
 {
-  display: grid;
-  grid-template-areas:
-    'header navigation space content random'
-  grid-gap: 10px;
+  width: 350px;
   background-color: #2196F3;
   padding: 10px;
 }
@@ -11,13 +12,105 @@
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
 }
 
-.item1 { grid-area: header; background-color: #2196F3;}
-.item2 { grid-area: navigation; background-color: #ccff99}
-.item3 { grid-area: space; background-color: #99ff99}
-.item4 { grid-area: content; background-color: #99e6ff}
-.item5 { grid-area: footer; background-color: #ffff99}
-.item6 { grid-area: random; background-color: #ffff99}
+.item2 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item3 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item4 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item5 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item6 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px;
+}
+
+.item7 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item8 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item9 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item10 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item11 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item12 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.item13 {
+  background-color: #2196F3;
+  height: 400px;
+  padding: 20px 0;
+}
+.
+.candy_name{
+  background-color: #2196F3;
+  font-size: 1.4em;
+  margin: 0
+  padding: 20px
+}
+
+.size{
+  background-color: #6842f4;
+  font-size: 1.2em;
+}
+
+.weight{
+  background-color: #f4419d;
+  font-size: 1.2em;
+  margin: 0
+  padding: 20px
+}
+
+.origin{
+  background-color: #41f461;
+  font-size: .8em;
+}
+
+.uses{
+  background-color: #2196F3;
+  font-size: .7em;
+}
